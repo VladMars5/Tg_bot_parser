@@ -7,7 +7,7 @@ from alltime_parser import get_page_time, get_info_time
 import json
 
 
-bot = Bot(token="2081588707:AAHRSpjGaTjzF0SZdZdGI2lzFj9LIH1_VCo", parse_mode=types.ParseMode.HTML)
+bot = Bot(token="", parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands="start")
